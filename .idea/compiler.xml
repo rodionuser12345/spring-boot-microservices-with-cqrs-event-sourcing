@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="user-query-api-project" />
+        <module name="user-core-project" />
+        <module name="user-command-api-project" />
+        <module name="User Management" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="User Management" target="1.5" />
+      <module name="user-command-api-project (1)" target="11" />
+      <module name="user-command-api-project (2)" target="11" />
+      <module name="user-core-project (1)" target="11" />
+      <module name="user-core-project (2)" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="user-command-api-project" options="-parameters" />
+      <module name="user-command-api-project (1)" options="-parameters" />
+      <module name="user-command-api-project (2)" options="-parameters" />
+      <module name="user-core-project" options="-parameters" />
+      <module name="user-core-project (1)" options="-parameters" />
+      <module name="user-core-project (2)" options="-parameters" />
+      <module name="user-query-api-project" options="-parameters" />
+    </option>
+  </component>
+</project>
