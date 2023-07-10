@@ -12,6 +12,7 @@
         <module>User Command API Project</module>
         <module>User Query API Project</module>
         <module>User Core Project</module>
+        <module>User OAuth 2.0</module>
     </modules>
 
 </project>

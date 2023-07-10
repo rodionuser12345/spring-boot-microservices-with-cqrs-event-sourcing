@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="user-query-api-project" />
+        <module name="User_OAuth_20" />
         <module name="user-core-project" />
         <module name="user-command-api-project" />
         <module name="User Management" />
@@ -23,6 +24,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="User_OAuth_20" options="-parameters" />
       <module name="user-command-api-project" options="-parameters" />
       <module name="user-command-api-project (1)" options="-parameters" />
       <module name="user-command-api-project (2)" options="-parameters" />
