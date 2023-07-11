@@ -1,15 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
+    <excludeFromCompile>
+      <directory url="file://$PROJECT_DIR$/user-management-service/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/bank-account-service/src/main/resources/archetype-resources" includeSubdirectories="true" />
+    </excludeFromCompile>
     <annotationProcessing>
       <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="user-query-api-project" />
+        <module name="Bank_Core_Project" />
         <module name="User_OAuth_20" />
+        <module name="Bank_Command_API_Project" />
         <module name="user-core-project" />
+        <module name="Bank_Query_API_Project" />
+        <module name="api-gateway" />
+        <module name="user-query-api-project" />
         <module name="user-command-api-project" />
         <module name="User Management" />
       </profile>
@@ -20,11 +28,16 @@
       <module name="user-command-api-project (2)" target="11" />
       <module name="user-core-project (1)" target="11" />
       <module name="user-core-project (2)" target="11" />
+      <module name="user-management" target="1.5" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Bank_Command_API_Project" options="-parameters" />
+      <module name="Bank_Core_Project" options="-parameters" />
+      <module name="Bank_Query_API_Project" options="-parameters" />
       <module name="User_OAuth_20" options="-parameters" />
+      <module name="api-gateway" options="-parameters" />
       <module name="user-command-api-project" options="-parameters" />
       <module name="user-command-api-project (1)" options="-parameters" />
       <module name="user-command-api-project (2)" options="-parameters" />

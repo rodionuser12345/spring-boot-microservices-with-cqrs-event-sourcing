@@ -2,6 +2,8 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/User OAuth 2.0" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/bank-account-service/Bank Command API Project" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/bank-account-service/Bank Query API Project" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/user-management-service/User OAuth 2.0" vcs="Git" />
   </component>
 </project>

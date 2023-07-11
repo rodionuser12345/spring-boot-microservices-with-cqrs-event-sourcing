@@ -1,12 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
-    <file url="file://$PROJECT_DIR$/User Command API Project/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/User Command API Project/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/User Core Project/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/User Core Project/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/User OAuth 2.0/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/User Query API Project/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/User Query API Project/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/api-gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/api-gateway/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bank-account-service/Bank Command API Project/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bank-account-service/Bank Command API Project/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bank-account-service/Bank Core Project/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bank-account-service/Bank Core Project/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bank-account-service/Bank Query API Project/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bank-account-service/Bank Query API Project/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bank-account-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bank-account-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/user-management-service/User Command API Project/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/user-management-service/User Command API Project/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/user-management-service/User Core Project/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/user-management-service/User Core Project/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/user-management-service/User OAuth 2.0/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/user-management-service/User Query API Project/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/user-management-service/User Query API Project/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/user-management-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/user-management-service/src/main/resources" charset="UTF-8" />
   </component>
 </project>
