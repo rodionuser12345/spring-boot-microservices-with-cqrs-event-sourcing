@@ -16,13 +16,13 @@
         <module name="Bank_Command_API_Project" />
         <module name="user-core-project" />
         <module name="Bank_Query_API_Project" />
+        <module name="api-gateway" />
         <module name="user-query-api-project" />
         <module name="user-command-api-project" />
         <module name="User Management" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="api-gateway" target="11" />
       <module name="User Management" target="1.5" />
       <module name="user-command-api-project (1)" target="11" />
       <module name="user-command-api-project (2)" target="11" />
